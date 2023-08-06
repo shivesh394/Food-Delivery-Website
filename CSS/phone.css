@@ -1,0 +1,72 @@
+
+
+#navbar ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 0px 7px;
+    height: 100px;
+    padding: 3px 10px;
+    margin: 10px;
+}
+#logo img{
+    height: 40px;
+    width: 40px;
+}
+
+#logo p{
+    font-weight: lighter;
+}
+
+
+
+
+#home h1{
+    font-size: 1.5rem;
+}
+
+#home p{
+    font-size: 0.9rem;
+}
+
+
+
+#services{
+    flex-direction: column;
+}
+
+#services .box1{
+    padding: 10px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+#services .box1 img{
+    height: 140px;
+    width: 200px;
+}
+
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#login1{
+    font-size: 0.7em;
+    padding: 3px 10px;
+    border-radius: 8px;
+}
+
+#login2{
+    font-size: 0.7em;
+    padding: 3px 10px;
+    border-radius: 8px;
+}

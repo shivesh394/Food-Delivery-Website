@@ -1,0 +1,127 @@
+body{
+    background: url("../img/cu2.jpg") no-repeat center center fixed;
+    background-size: cover; 
+    /* background-color: blueviolet; */
+}
+
+
+
+#contact{
+    position: relative;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column ;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+    /* opacity: 0.7; */
+    /* background: url("../img/cu2.jpg"); */
+}
+#contact-box{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column ;
+    width: 500px;
+    border-radius: 10px;
+}
+#contact-box input
+{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 3px solid gray;
+    margin: 3px;
+}
+#contact-box textarea{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 3px solid gray;
+    margin: 3px;
+}
+#contact-box form{
+    width: 50%;
+}
+#contact-box label{
+    font-size: 1.2rem;
+    width: 40%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 2px;
+    padding: 2px;
+}
+#contact-box button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+
+h1{
+    margin: 5px;
+    padding: 1px;
+    font-family: 'Open Sans', sans-serif
+}
+
+h3{
+    margin: 6px;
+    padding: 1px;
+    font-family: 'Open Sans', sans-serif
+}
+h4{
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 100px;
+}
+
+#whatsaap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 3px;
+    color: white;
+}
+
+#add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 3px;
+    color: white;
+}
+
+#email-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 3px;
+    color: white;
+}
+
+.form-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
